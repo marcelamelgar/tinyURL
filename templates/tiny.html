@@ -34,10 +34,10 @@
     <body style="padding: 4vh;">
         <div class="container shadow-lg">
             <div class="topnav">
-                <a class="active" href="#home">Tiny</a>
-                <a href="#news">URLs</a>
-                <a href="#contact">Stats</a>
-                <a href="#about">About</a>
+                <a class="active" href="/">Tiny</a>
+                <a href="/urls">URLs</a>
+                <a href="/stats">Stats</a>
+                <a href="/about">About</a>
             </div>
             <br>
             <h1>Tiny URL</h1>
@@ -45,14 +45,14 @@
             <form>
                 <div class="form-group">
                     <label for="inputURL">Enter a large URL to make it tiny</label>
-                    <input type="text" class="form-control" id = "inputURL" placeholder="Enter the URL">
+                    <input name = "url" type="text" class="form-control" id = "inputURL" placeholder="Enter the URL">
                     <br>
                     <label for="inputCostumeURL" style="font-weight: bold;">Costume URL (optional)</label>
                     <div class="form-group row">
                         <br>
                         <label for="costumeURL" class="col-sm-2 col-form-label">http://nosetodavia.com/</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="costumeURL" placeholder="Enter word">
+                            <input name = "optional" type="text" class="form-control" id="costumeURL" placeholder="Enter word">
                         </div>
                     </div>
                 </div>
