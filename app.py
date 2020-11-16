@@ -27,6 +27,14 @@ def tiny():
 
     return render_template("tiny.html")
 
+@app.route("/About")
+def about():
+    return render_template("about.html")
+
+@app.route("/Thanks")
+def thankYou():
+    return render_template("thankyou.html")
+
 
 
 if __name__ == "__main__":
